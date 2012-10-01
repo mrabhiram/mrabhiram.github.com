@@ -177,7 +177,11 @@ a.button span {
 #view-on-tumblr {
   margin-right: 0;
 }
-#something {padding: 25px; float: right; height: 30px; width: 450px;}
+#something {padding: 25px; float: right; height: 30px; width: 450px;
+font-size: 30px;
+font-family : brush script mt;
+color : green;
+}
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
@@ -258,10 +262,11 @@ h1 {
 } 
 
 h2 {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: bold;
-  color: #303030;
+  color: #0AE1DA;
   margin-bottom: 8px;
+font-family: comic sans ms;
 } 
 
 h3 {
@@ -290,6 +295,7 @@ h6 {
 p {
   font-weight: 300;
   margin-bottom: 20px;
+  font-family: cursive;
 }
  
 a {
