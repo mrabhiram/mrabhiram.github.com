@@ -90,7 +90,9 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: 650px;
+  height: 500px;
+  padding: 100px;
   margin: 0 auto;
 }
 
@@ -182,6 +184,7 @@ font-size: 30px;
 font-family : brush script mt;
 color : green;
 }
+
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
@@ -378,7 +381,9 @@ footer a:hover {
     display: none;
   }
   .inner {
+    padding: 100px;
     width: 94%;
+    height: 100px;
     margin: 0 auto;
   }
 }
