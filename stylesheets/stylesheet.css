@@ -90,9 +90,7 @@ header h2 {
 }
 
 .inner {
-  width: 650px;
-  height: 500px;
-  padding: 100px;
+  width: 620px;
   margin: 0 auto;
 }
 
@@ -163,26 +161,8 @@ a.button span {
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
 }
-#view-on-tumblr span {
-  background: transparent url(../images/tumblr-icon.png) .5px 50% no-repeat;
-}
-
-#view-on-mytwitter span {
-  background: transparent url(../images/twitter.png) 12px 50% no-repeat;
-}
 #view-on-github {
   margin-right: 0;
-}
-#view-on-mytwitter {
-  margin-right: 0;
-}
-#view-on-tumblr {
-  margin-right: 0;
-}
-#something {padding: 25px; float: right; height: 30px; width: 450px;
-font-size: 30px;
-font-family : brush script mt;
-color : green;
 }
 
 code, pre {
@@ -265,11 +245,10 @@ h1 {
 } 
 
 h2 {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
-  color: #0AE1DA;
+  color: #303030;
   margin-bottom: 8px;
-font-family: comic sans ms;
 } 
 
 h3 {
@@ -298,7 +277,6 @@ h6 {
 p {
   font-weight: 300;
   margin-bottom: 20px;
-  font-family: cursive;
 }
  
 a {
@@ -381,9 +359,7 @@ footer a:hover {
     display: none;
   }
   .inner {
-    padding: 100px;
     width: 94%;
-    height: 100px;
     margin: 0 auto;
   }
 }
