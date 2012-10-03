@@ -15,45 +15,46 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* LAYOUT STYLES */
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+ //background:  url(../second.jpg) 0 0 no-repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #6d6d6d;
+
 }
 
 a {
@@ -83,10 +84,31 @@ header h2 {
   font-weight: normal;
   line-height: 1.3;
 }
+#name1{
+position: relative;
+left:35px;
 
+
+}
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
-  min-height: 595px;
+  position: relative;
+  top: 40px;
+  left: 125px;
+  background: transparent url(../second.jpg) 50% 0 no-repeat;
+  //min-height: 595px;
+  height:600px;
+  width: 1000px;
+-webkit-border-radius : 20px ;
+  -moz-border-radius: 20px ;
+border-top: solid 1px #cbcbcb;
+  border-left: solid 1px #b7b7b7;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+
 }
 
 .inner {
@@ -94,15 +116,43 @@ header h2 {
   height: 500px;
   padding: 100px;
   margin: 0 auto;
+
 }
 
 #container .inner img {
   max-width: 100%;
+-webkit-border-radius : 20px ;
+  -moz-border-radius: 20px ;
+border-top: solid 1px #cbcbcb;
+  border-left: solid 1px #b7b7b7;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+  
 }
 
 #downloads {
   margin-bottom: 40px;
 }
+
+#myimage{
+-webkit-border-radius : 20px ;
+  -moz-border-radius: 20px ;
+border-top: solid 1px #cbcbcb;
+  border-left: solid 1px #b7b7b7;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+width: 150px;
+height: 150px;
+}
+
 
 a.button {
   -moz-border-radius: 30px;
@@ -179,7 +229,11 @@ a.button span {
 #view-on-tumblr {
   margin-right: 0;
 }
-#something {padding: 25px; float: right; height: 30px; width: 450px;
+#something { height: 30px; width: 450px;
+  position: relative;
+  
+  bottom: 125px;
+  left: 175px;
 font-size: 30px;
 font-family : brush script mt;
 color : green;
